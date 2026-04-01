@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "username": "Aswanth P",
+    "password": "123",
+    "score": 195
+  },
+  {
+    "id": "2",
+    "username": "Siva",
+    "password": "2026",
+    "score": 160
+  },
+  {
+    "id": "3",
+    "username": "Prithiv",
+    "password": "1234",
+    "score": 140
+  },
+  {
+    "id": "4",
+    "username": "New Candidate",
+    "password": "111",
+    "score": 85
+  },
+  {
+    "id": "5",
+    "username": "Guest User",
+    "password": "222",
+    "score": 20
+  },
+  {
+    "id": "1774614483001",
+    "username": "Aswanth",
+    "password": "123",
+    "score": 80
+  },
+  {
+    "id": "1774674870055",
+    "username": "rakesh",
+    "password": "123",
+    "score": 0
+  },
+  {
+    "id": "1774677906227",
+    "username": "Ak",
+    "password": "1234",
+    "score": 10
+  }
+]

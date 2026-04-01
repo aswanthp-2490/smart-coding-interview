@@ -1,0 +1,62 @@
+<div class="dashboard-wrapper">
+  <div class="decorative-blob blob-1"></div>
+  <div class="decorative-blob blob-2"></div>
+  
+  <div class="dashboard-card glass-panel fade-in">
+    <header class="dashboard-header">
+      <div class="header-content">
+        <h1 class="gradient-text">Smart Coding Interview</h1>
+        <p class="subtitle">Live Candidate Leaderboard</p>
+      </div>
+    </header>
+
+    <div *ngIf="errorMessage" class="error-banner slide-down">
+      <span class="error-icon">⚠️</span> {{ errorMessage }}
+    </div>
+
+    <div class="leaderboard-container">
+      <div *ngIf="leaderboard.length === 0 && !errorMessage" class="empty-state">
+        <div class="pulse-ring"></div>
+        <p>No candidates found yet.</p>
+      </div>
+
+      <div class="candidate-list" *ngIf="leaderboard.length > 0">
+        <div 
+          class="candidate-row" 
+          *ngFor="let candidate of leaderboard; let i = index"
+          [style.animationDelay]="i * 0.1 + 's'"
+          [ngClass]="{'top-rank': i < 3}"
+        >
+          <div class="rank-badge" [ngClass]="'rank-' + (i + 1)">
+            <span *ngIf="i === 0">🏆</span>
+            <span *ngIf="i === 1">🥈</span>
+            <span *ngIf="i === 2">🥉</span>
+            <span *ngIf="i > 2">#{{ i + 1 }}</span>
+          </div>
+          
+          <div class="candidate-info">
+            <h3 class="candidate-name" style="display: flex; align-items: center; gap: 0.5rem;">
+              {{ candidate.username }}
+              <span class="status-dot" [ngClass]="candidate.isLoggedIn ? 'online' : 'offline'" title="{{ candidate.isLoggedIn ? 'Online' : 'Offline' }}"></span>
+            </h3>
+            <div class="score-bar-container">
+              <div class="score-bar" 
+                   [style.width.%]="(candidate.score / 200) * 100"
+                   [ngClass]="{
+                     'score-high': candidate.score >= 150, 
+                     'score-med': candidate.score >= 80 && candidate.score < 150, 
+                     'score-low': candidate.score < 80
+                   }">
+              </div>
+            </div>
+          </div>
+
+          <div class="candidate-score">
+            <span class="score-value">{{ candidate.score }}</span>
+            <span class="score-label">pts</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

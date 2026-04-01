@@ -1,0 +1,461 @@
+[
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n            if(arr[i] + arr[j] == target) {\n                printf(\"Indices: %d, %d\\n\", i, j);\n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n    int arr[] = {2, 7, 11, 15};\n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 18,
+    "timestamp": "2026-03-24T16:38:22.738Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n         \n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n   \n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 42,
+    "timestamp": "2026-03-24T16:38:46.716Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n         \n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n   \n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 47,
+    "timestamp": "2026-03-24T16:38:51.819Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n         \n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n   \n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 47,
+    "timestamp": "2026-03-24T16:38:52.034Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n         \n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n   \n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 47,
+    "timestamp": "2026-03-24T16:38:52.478Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n         \n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n   \n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 47,
+    "timestamp": "2026-03-24T16:38:52.676Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n         \n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n   \n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 48,
+    "timestamp": "2026-03-24T16:38:52.888Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "#include <stdio.h>\n\n// Function to find two sum indices\nvoid twoSum(int arr[], int n, int target) {\n    int i, j;\n    \n    for(i = 0; i < n; i++) {\n        for(j = i + 1; j < n; j++) {\n         \n                return;\n            }\n        }\n    }\n    \n    printf(\"No solution found\\n\");\n}\n\nint main() {\n   \n    int n = 4;\n    int target = 9;\n    \n    twoSum(arr, n, target);\n    \n    return 0;\n}\n",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 5,
+    "timestamp": "2026-03-24T16:39:09.148Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q2",
+    "code": "// Write your code here\n",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 106,
+    "timestamp": "2026-03-24T16:44:35.787Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <stdio.h>\n\nint main() {\n    int nums[] = {2, 7, 11, 15};\n    int target = 9;\n    int n = 4;\n\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                printf(\"Indices: %d %d\", i, j);\n                return 0;\n            }\n        }\n    }\n\n    printf(\"No solution found\");\n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 12,
+    "timestamp": "2026-03-24T17:21:49.696Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <stdio.h>\n\nint main() {\n    int nums[] = {2, 7, 11, 15};\n     target = 9;\n    \n                return 0;\n            }\n        }\n    }\n\n    pritf(\"No solution found\");\n    return 0;\n}",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 22,
+    "timestamp": "2026-03-24T17:22:31.459Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 53,
+    "timestamp": "2026-03-24T17:31:29.780Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}\n",
+    "language": "java",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 9,
+    "timestamp": "2026-03-24T17:31:53.563Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 16,
+    "timestamp": "2026-03-24T17:32:17.964Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == taret) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 26,
+    "timestamp": "2026-03-24T17:33:03.736Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 8,
+    "timestamp": "2026-03-24T17:39:23.832Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 18,
+    "timestamp": "2026-03-24T17:39:40.675Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 29,
+    "timestamp": "2026-03-24T17:39:55.119Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "js",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 8,
+    "timestamp": "2026-03-24T17:49:15.171Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int nums[n];\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    cin >> target;\n\n    // Check all pairs\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(nums[i] + nums[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 14,
+    "timestamp": "2026-03-24T17:49:33.656Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int arr[n];\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    cin >> target;\n\n    // Find two indices\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(arr[i] + arr[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 20,
+    "timestamp": "2026-03-24T17:50:25.328Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int arr[n];\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    cin >> target;\n\n    // Find two indices\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(arr[i] + arr[j] == target) {\n                cout << i << \" \" << j;\n                return ;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 25,
+    "timestamp": "2026-03-24T17:51:04.107Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_hard",
+    "code": "hi aswanth\n\n",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 16,
+    "timestamp": "2026-03-24T17:51:34.932Z"
+  },
+  {
+    "userId": "1774376134028",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\nHiii",
+    "language": "js",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 3,
+    "timestamp": "2026-03-24T18:15:42.257Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\n",
+    "language": "js",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 6,
+    "timestamp": "2026-03-25T03:58:25.217Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\nint main() {\nprint(\"0 1\");\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 92,
+    "timestamp": "2026-03-25T04:03:32.018Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\nint main() {\ncout<<\"0 1\";\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 129,
+    "timestamp": "2026-03-25T04:04:30.668Z"
+  },
+  {
+    "userId": "1774421163148",
+    "questionId": "q1_hard",
+    "code": "// Write your code hereimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        int n = sc.nextInt();\n        int[] nums = new int[n];\n        \n        for(int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n        \n        Arrays.sort(nums);\n        int count = 0;\n\n        for(int i = 0; i < n - 2; i++) {\n            \n            // Skip duplicate elements\n            if(i > 0 && nums[i] == nums[i - 1]) continue;\n            \n            int left = i + 1;\n            int right = n - 1;\n\n            while(left < right) {\n                int sum = nums[i] + nums[left] + nums[right];\n\n                if(sum == 0) {\n                    count++;\n\n                    // Skip duplicates\n                    while(left < right && nums[left] == nums[left + 1]) left++;\n                    while(left < right && nums[right] == nums[right - 1]) right--;\n\n                    left++;\n                    right--;\n                }\n                else if(sum < 0) {\n                    left++;\n                }\n                else {\n                    right--;\n                }\n            }\n        }\n\n        System.out.println(count);\n    }\n}\n",
+    "language": "java",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 58,
+    "timestamp": "2026-03-25T06:47:11.230Z"
+  },
+  {
+    "userId": "1774421163148",
+    "questionId": "q1_hard",
+    "code": "// Write your code here\nimport java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        \n        int n = sc.nextInt();\n        int[] nums = new int[n];\n        \n        for(int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n        \n        Arrays.sort(nums);\n        int count = 0;\n\n        for(int i = 0; i < n - 2; i++) {\n            \n            // Skip duplicate elements\n            if(i > 0 && nums[i] == nums[i - 1]) continue;\n            \n            int left = i + 1;\n            int right = n - 1;\n\n            while(left < right) {\n                int sum = nums[i] + nums[left] + nums[right];\n\n                if(sum == 0) {\n                    count++;\n\n                    // Skip duplicates\n                    while(left < right && nums[left] == nums[left + 1]) left++;\n                    while(left < right && nums[right] == nums[right - 1]) right--;\n\n                    left++;\n                    right--;\n                }\n                else if(sum < 0) {\n                    left++;\n                }\n                else {\n                    right--;\n                }\n            }\n        }\n\n        System.out.println(count);\n    }\n}\n",
+    "language": "java",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 67,
+    "timestamp": "2026-03-25T06:47:42.229Z"
+  },
+  {
+    "userId": "1774421163148",
+    "questionId": "q1_easy",
+    "code": "#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> nums(n);\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp; // value -> index\n\n    for(int i = 0; i < n; i++) {\n        int complement = target - nums[i];\n\n        if(mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i << endl;\n            return 0;\n        }\n\n        mp[nums[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 44,
+    "timestamp": "2026-03-25T06:50:18.830Z"
+  },
+  {
+    "userId": "1774421163148",
+    "questionId": "q1_easy",
+    "code": "#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> nums(n);\n    for(int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp; // value -> index\n\n    for(int i = 0; i < n; i++) {\n        int complemt\n\n        if(mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i << endl;\n            return 0;\n        }\n\n        mp[nums[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 55,
+    "timestamp": "2026-03-25T06:50:35.828Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\nsdv",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 6,
+    "timestamp": "2026-03-25T07:02:01.960Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q4_easy",
+    "code": "// Write your code here\n",
+    "language": "js",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 5,
+    "timestamp": "2026-03-27T12:18:15.796Z"
+  },
+  {
+    "userId": "1774370189699",
+    "questionId": "q3_easy",
+    "code": "// Write your code herel'\n",
+    "language": "java",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 20,
+    "timestamp": "2026-03-27T12:20:47.284Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your code here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> nums(n);\n    for (int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp; // value -> index\n\n    for (int i = 0; i < n; i++) {\n        int complement = target - nums[i];\n\n        if (mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i;\n            return 0;\n        }\n\n        mp[nums[i]] = i;\n    }\n\n    return 0;\n}\n",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 42,
+    "timestamp": "2026-03-27T12:29:26.021Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> arr(n);\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp;\n\n    for(int i = 0; i < n; i++) {\n        int complement = target - arr[i];\n\n        if(mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i;\n            return 0;\n        }\n\n        mp[arr[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 46,
+    "timestamp": "2026-03-27T12:37:15.367Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> arr(n);\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp;\n\n    for(int i = 0; i < n; i++) {\n        int complement = target - arr[i];\n\n        if(mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i;\n            return 0;\n        }\n\n        mp[arr[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 22,
+    "timestamp": "2026-03-27T12:45:34.021Z"
+  },
+  {
+    "userId": "1774674870055",
+    "questionId": "q3_easy",
+    "code": "// Write your solution here\n#include<iostream>\nusing namespace std;\nint main(){\nstring str;\ncin>>str;\ncout<<str;\n}\n",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 161,
+    "timestamp": "2026-03-28T05:18:11.298Z"
+  },
+  {
+    "userId": "1774674870055",
+    "questionId": "q3_easy",
+    "code": "// Write your solution here\n#include<iostream>\nusing namespace std;\nint main(){\nstring str;\ncin>>str;\nreverse(str);\ncout<<str;\n}\n",
+    "language": "cpp",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 210,
+    "timestamp": "2026-03-28T05:19:27.968Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> nums(n);\n    for (int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp; // value -> index\n\n    for (int i = 0; i < n; i++) {\n        int complement = target - nums[i];\n\n        if (mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i;\n            return 0;\n        }\n\n        mp[nums[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "js",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 64,
+    "timestamp": "2026-03-28T06:02:37.294Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> nums(n);\n    for (int i = 0; i < n; i++) {\n        cin >> nums[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp; // value -> index\n\n    for (int i = 0; i < n; i++) {\n        int complement = target - nums[i];\n\n        if (mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i;\n            return 0;\n        }\n\n        mp[nums[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 69,
+    "timestamp": "2026-03-28T06:03:01.595Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> arr(n);\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp; // value -> index\n\n    for(int i = 0; i < n; i++) {\n        int complement = target - arr[i];\n\n        if(mp.find(complement) != mp.end()) {\n            cout << mp[complement] << \" \" << i;\n            return 0;\n        }\n\n        mp[arr[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 47,
+    "timestamp": "2026-03-28T06:13:04.521Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> arr(n);\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> m; // value -> index\n\n    for(int i = 0; i < n; i++) {\n        int complement = target - arr[i];\n\n        if(m.find(complement) != m.end()) {\n            cout << m[complement] << \" \" << i;\n            return 0;\n        }\n\n        m[arr[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "js",
+    "passed": false,
+    "scoreGained": 0,
+    "timeTaken": 55,
+    "timestamp": "2026-03-28T08:12:20.543Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> arr(n);\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> m; // value -> index\n\n    for(int i = 0; i < n; i++) {\n        int complement = target - arr[i];\n\n        if(m.find(complement) != m.end()) {\n            cout << m[complement] << \" \" << i;\n            return 0;\n        }\n\n        m[arr[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 65,
+    "timestamp": "2026-03-28T08:12:40.055Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> arr(n);\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> m; // value -> index\n\n    for(int i = 0; i < n; i++) {\n        int complement = target - arr[i];\n\n        if(m.find(complement) != m.end()) {\n            cout << m[complement] << \" \" << i;\n            return 0;\n        }\n\n        m[arr[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 8,
+    "timestamp": "2026-03-28T08:13:10.110Z"
+  },
+  {
+    "userId": "1774614483001",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\n#include <vector>\n#include <unordered_map>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n\n    vector<int> arr(n);\n    for (int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    int target;\n    cin >> target;\n\n    unordered_map<int, int> mp;\n\n    for (int i = 0; i < n; i++) {\n        int needed = target - arr[i];\n\n        if (mp.find(needed) != mp.end()) {\n            cout << mp[needed] << \" \" << i;\n            return 0;\n        }\n\n        mp[arr[i]] = i;\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 65,
+    "timestamp": "2026-03-30T10:49:33.961Z"
+  },
+  {
+    "userId": "1774677906227",
+    "questionId": "q1_easy",
+    "code": "// Write your solution here\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int n, target;\n    cin >> n;\n\n    int arr[100];\n\n    // Input array\n    for(int i = 0; i < n; i++) {\n        cin >> arr[i];\n    }\n\n    cin >> target;\n\n    // Find two indices\n    for(int i = 0; i < n; i++) {\n        for(int j = i + 1; j < n; j++) {\n            if(arr[i] + arr[j] == target) {\n                cout << i << \" \" << j;\n                return 0;\n            }\n        }\n    }\n\n    return 0;\n}",
+    "language": "cpp",
+    "passed": true,
+    "scoreGained": 10,
+    "timeTaken": 101,
+    "timestamp": "2026-03-30T11:23:02.274Z"
+  }
+]
