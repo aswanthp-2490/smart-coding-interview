@@ -33,7 +33,7 @@
     "id": "1774614483001",
     "username": "Aswanth",
     "password": "123",
-    "score": 80
+    "score": 120
   },
   {
     "id": "1774674870055",
@@ -46,5 +46,11 @@
     "username": "Ak",
     "password": "1234",
     "score": 10
+  },
+  {
+    "_id": "1775414572838",
+    "username": "Aswanth2490",
+    "password": "2490",
+    "score": 20
   }
 ]

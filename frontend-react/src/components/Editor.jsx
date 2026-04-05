@@ -2,13 +2,13 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || `/api`;
+const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? "https://smart-coding-interview-backend.onrender.com/api" : "http://localhost:8080/api");
 
 function Editor({ user, setUser }) {
   const { id } = useParams();
   const navigate = useNavigate();
   const [question, setQuestion] = useState(null);
-  const [language, setLanguage] = useState('js');
+  const [language, setLanguage] = useState('cpp');
   const [output, setOutput] = useState('');
   const [timeLeft, setTimeLeft] = useState(0);
   const [timeTaken, setTimeTaken] = useState(0);
@@ -21,7 +21,7 @@ function Editor({ user, setUser }) {
     java: `import java.util.Scanner;\n\npublic class Main {\n  public static void main(String[] args) {\n    Scanner scanner = new Scanner(System.in);\n    \n    // Write your solution here\n    \n  }\n}`
   };
 
-  const [code, setCode] = useState(templates.js);
+  const [code, setCode] = useState(templates.cpp);
 
   useEffect(() => {
     setCode(templates[language] || '// Write your solution here\\n');
@@ -30,8 +30,10 @@ function Editor({ user, setUser }) {
   useEffect(() => {
     if (!user) {
       navigate('/login');
-      return;
     }
+  }, [user, navigate]);
+
+  useEffect(() => {
     axios.get(`${API_URL}/questions`).then(res => {
       const q = res.data.find(q => q.id === id);
       if (q) {
@@ -39,7 +41,7 @@ function Editor({ user, setUser }) {
         setTimeLeft(q.timeLimit);
       }
     });
-  }, [id, user, navigate]);
+  }, [id]);
 
   useEffect(() => {
     if (timeLeft > 0 && !isFinished && !isSubmitting) {
@@ -72,8 +74,8 @@ function Editor({ user, setUser }) {
       setOutput(`Score Awarded: ${res.data.scoreGained}\nEvaluation: ${res.data.passed ? 'PASSED ✅' : 'NEEDS IMPROVEMENT ❌'}\n\nFeedback:\n${res.data.output}`);
     } catch (err) {
       const errorMsg = err.response?.data?.message || err.message;
-      setOutput(`Error submitting code: ${errorMsg}`);
-      setIsFinished(false);
+      const errorDetails = err.response?.data?.output ? `\nDetails: ${err.response.data.output}` : '';
+      setOutput(`Error submitting code: ${errorMsg}${errorDetails}`);
     }
     setIsSubmitting(false);
   };

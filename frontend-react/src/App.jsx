@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || `/api`;
+const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? "https://smart-coding-interview-backend.onrender.com/api" : "http://localhost:8080/api");
 import Auth from './components/Auth';
 import Questions from './components/Questions';
 import Editor from './components/Editor';
@@ -64,7 +64,7 @@ function App() {
             />
             <Route 
               path="/editor/:id" 
-              element={<Editor user={user} setUser={setUser} />} 
+              element={user ? <Editor user={user} setUser={setUser} /> : <Navigate to="/login" />} 
             />
           </Routes>
         </div>

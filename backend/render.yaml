@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: smart-coding-interview-backend
-    runtime: node
-    buildCommand: npm install
-    startCommand: node server.js
+    name: smart-coding-interview-node-backend
+    runtime: docker # Changed from node to enable C++ (g++) support via Docker
     envVars:
       - key: PORT
         value: 10000

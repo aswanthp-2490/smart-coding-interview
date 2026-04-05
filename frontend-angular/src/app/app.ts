@@ -62,13 +62,17 @@ export class App implements OnInit, OnDestroy {
             this.leaderboard = dataArray;
             this.errorMessage = '';
           } else {
-            this.leaderboard = [
-              { username: 'Alice Smith', score: 185, isLoggedIn: true },
-              { username: 'Bob Johnson', score: 140, isLoggedIn: true },
-              { username: 'Charlie Davis', score: 95, isLoggedIn: false },
-              { username: 'Diana Prince', score: 45, isLoggedIn: true }
-            ];
-            this.errorMessage = 'No candidates yet. Displaying mock data for preview.';
+            // Check if backend actually returned an empty array or if it was a connection failure handled by catchError
+            if (this.errorMessage === '') {
+              this.leaderboard = [];
+              this.errorMessage = 'Waiting for the first candidate to submit code!';
+            } else {
+              this.leaderboard = [
+                { username: 'System Check', score: 0, isLoggedIn: false },
+                { username: 'Alice Smith (Sample)', score: 185, isLoggedIn: true },
+                { username: 'Bob Johnson (Sample)', score: 140, isLoggedIn: true }
+              ];
+            }
           }
           
           // Force view update
